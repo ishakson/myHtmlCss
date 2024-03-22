@@ -22,6 +22,7 @@ body {
 }
 nav {
   font-size: 18px;
+  /* text-align: center; */
 }
 article {
   margin-bottom: 60px;
@@ -104,6 +105,17 @@ li {
 
 li:last-child {
   margin-bottom: 0;
+}
+
+nav a:link{
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  
+}
+
+nav a:link:last-child{
+  margin-right: 0;
 }
 
 /*footer p {
